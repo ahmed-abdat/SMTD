@@ -8,17 +8,17 @@
   "HeroSection": {
     "slides": [
       {
-        "image": "/1.jpg",
+        "image": "/1.webp",
         "title": "Pour un Environnement Plus Propre",
         "description": "Leader en gestion et valorisation des déchets en Mauritanie"
       },
       {
-        "image": "/2.jpg",
+        "image": "/2.webp",
         "title": "Innovation et Durabilité",
         "description": "Des solutions modernes pour un avenir durable"
       },
       {
-        "image": "/3.jpg",
+        "image": "/3.webp",
         "title": "Engagement Environnemental",
         "description": "Contribuons ensemble à un meilleur environnement"
       }
