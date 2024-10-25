@@ -4,17 +4,11 @@ import LocalSwitcher from '@/components/local-switcher'
 import NavButton from '@/components/NavButton'
 import { useTranslations } from 'next-intl'
 import DockDemo from './Docke'
+import { navLinks } from '@/constats/nav-links'
 
 const Footer: React.FC<{ locale: string }> = ({ locale }) => {
   const t = useTranslations('Footer')
   const nav = useTranslations('Navigation')
-
-  const footerLinks = [
-    { title: nav('Solar Energy'), href: '/solar-energy' },
-    { title: nav('Water & Electricity'), href: '/water-electricity' },
-    { title: nav('Fiber Cement'), href: '/fiber-cement' },
-    { title: nav('Logistics'), href: '/logistics' }
-  ]
 
   return (
     <footer className="bg-primary-forestGreen text-primary-white py-8">
@@ -35,12 +29,12 @@ const Footer: React.FC<{ locale: string }> = ({ locale }) => {
           </p>
         </div>
         <div className="md:w-1/3 mb-8 md:mb-0">
-          <h3 className="text-lg font-semibold mb-4 text-primary-yellow">{t('services')}</h3>
+          <h3 className="text-lg font-semibold mb-4 text-primary-yellow">{t('QuickLinks')}</h3>
           <ul>
-            {footerLinks.map(link => (
+            {navLinks.map(link => (
               <li key={link.href}>
                 <NavButton 
-                  navLink={link} 
+                  navLink={{ ...link, title: nav(link.title) }}
                   locale={locale} 
                   className="text-primary-offWhite hover:text-primary-yellow transition-all duration-150" 
                 />
@@ -54,7 +48,7 @@ const Footer: React.FC<{ locale: string }> = ({ locale }) => {
         </div>
       </div>
       <div className="text-center mt-8 text-primary-offWhite">
-        <p>&copy; 2024 MBI | Modern Building Industry. {t('allRightsReserved')}</p>
+        <p >&copy; {new Date().getFullYear()}  {t('companyName')} | {t('companyShortName')}  {t('allRightsReserved')}</p>
       </div>
     </footer>
   )

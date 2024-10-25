@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useCallback } from "react";
 
 import Link from "next/link";
 
@@ -16,58 +16,62 @@ import Image from "next/image";
 
 import LocalSwitcher from "./local-switcher";
 
-const navigation = [
-  { name: "Accueil", href: "/" },
+import { useTranslations } from 'next-intl';
 
-  { name: "À Propos", href: "/about" },
+import { navLinks } from "@/constats/nav-links";
 
-  { name: "Services", href: "/services" },
+import NavButton from "./NavButton"; // Make sure to import the NavButton component
+import { cn } from "@/lib/utils";
 
-  { name: "Contact", href: "/contact" },
-
-  { name: "Carrières", href: "/careers" },
-];
-
-export function Header() {
+export function Header({
+  locale,
+}: {
+  locale: string;
+}) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const pathname = usePathname();
+  const t = useTranslations('Navigation');
+
+  // Function to close the sheet
+  const closeSheet = useCallback(() => {
+    setIsOpen(false);
+  }, []);
 
   return (
-    <header className="sticky top-0 w-full bg-light-gray/95 backdrop-blur supports-[backdrop-filter]:bg-light-gray/60 z-50 border-b">
+    <header className="sticky top-0 w-full bg-primary-lightGray backdrop-blur supports-[backdrop-filter]:bg-primary-lightGray/60 z-50 border-b">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
         <div className="flex h-16 items-center justify-between">
+          {/* Left side: Logo and LocalSwitcher */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
+            <Link href="/" className={cn("flex items-center", {
+              "mr-8": locale === "fr",
+              "ml-8": locale === "ar",
+            })}>
               <Image src="/logo.svg" alt="SMTD Logo" width={55} height={55} />
             </Link>
+            <LocalSwitcher />
           </div>
 
+          {/* Right side: Nav links and Contact Us button */}
           <div className="hidden md:flex md:items-center md:space-x-6">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-primary-limeGreen ${
-                  pathname === item.href ? "text-primary-forestGreen" : "text-primary-charcoal"
-                }`}
-              >
-                {item.name}
-              </Link>
+            {navLinks.map((navLink) => (
+              <NavButton
+                locale={locale}
+                navLink={{ ...navLink, title: t(navLink.title) }}
+                key={navLink.href}
+                className="text-base font-medium transition-colors hover:text-primary-limeGreen"
+              />
             ))}
-
-            <LocalSwitcher />
-
             <Button className="bg-primary-forestGreen text-primary-white hover:bg-primary-darkGreen">
-              Contactez-nous
+              {t('Contact Us')}
             </Button>
           </div>
 
+          {/* Mobile menu button */}
           <div className="flex md:hidden">
-            <LocalSwitcher />
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon" className="ml-2">
+                <Button variant="ghost" size="icon">
                   <Menu className="h-6 w-6 text-primary-charcoal" />
                   <span className="sr-only">Toggle menu</span>
                 </Button>
@@ -75,22 +79,20 @@ export function Header() {
 
               <SheetContent side="right" className="bg-primary-lightGray">
                 <div className="flex flex-col space-y-4 mt-4">
-                  {navigation.map((item) => (
-                    <Link
-                      key={item.name}
-                      href={item.href}
-                      className={`text-sm font-medium transition-colors hover:text-primary-limeGreen ${
-                        pathname === item.href
-                          ? "text-primary-forestGreen"
-                          : "text-primary-charcoal"
-                      }`}
-                      onClick={() => setIsOpen(false)}
-                    >
-                      {item.name}
-                    </Link>
+                  {navLinks.map((navLink) => (
+                    <NavButton
+                      locale={locale}
+                      navLink={{ ...navLink, title: t(navLink.title) }}
+                      key={navLink.href}
+                      className="text-sm font-medium transition-colors hover:text-primary-limeGreen"
+                      onClick={closeSheet}
+                    />
                   ))}
-                  <Button className="bg-primary-forestGreen text-primary-white hover:bg-primary-darkGreen w-full">
-                    Contactez-nous
+                  <Button 
+                    className="bg-primary-forestGreen text-primary-white hover:bg-primary-darkGreen w-full"
+                    onClick={closeSheet}
+                  >
+                    {t('Contact Us')}
                   </Button>
                 </div>
               </SheetContent>

@@ -5,15 +5,55 @@
     "CTA": "En savoir plus",
     "trustedCompaniesHeading": "ILS NOUS FONT CONFIANCE"
   },
-  "Features": {
-    "feature1Title": "Énergie propre",
-    "feature1Description": "Nous trouvons toujours des solutions pour l'énergie en fournissant des services d'énergie solaire et éolienne.",
-    "feature2Title": "Services logistiques",
-    "feature2Description": "L'entreprise fournit tous les services liés à l'expédition et aussi par le biais des bureaux d'expédition.",
-    "feature3Title": "Spécialistes du bâtiment",
-    "feature3Description": "Nous pouvons construire des installations intégrées et il existe également des installations mobiles et nous construisons également des entrepôts.",
-    "feature4Title": "15 ans d'expérience",
-    "feature4Description": "Plus de 15 ans d'expérience dans le domaine, avec une équipe complète d'ingénieurs et de professionnels."
+  "HeroSection": {
+    "slides": [
+      {
+        "image": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b",
+        "title": "Pour un Environnement Plus Propre",
+        "description": "Leader en gestion et valorisation des déchets en Mauritanie"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9",
+        "title": "Innovation et Durabilité",
+        "description": "Des solutions modernes pour un avenir durable"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1595278069441-2cf29f8005a4",
+        "title": "Engagement Environnemental",
+        "description": "Contribuons ensemble à un meilleur environnement"
+      }
+    ],
+    "CTA": "Découvrez Nos Services"
+  },
+  "ServicesSection": {
+    "title": "Nos Services",
+    "description": "Découvrez les solutions complètes que nous offrons pour la gestion efficace et durable des déchets.",
+    "services": [
+      {
+        "title": "Collecte des Déchets",
+        "description": "Service professionnel de collecte des déchets pour un environnement plus sain."
+      },
+      {
+        "title": "Transport",
+        "description": "Transport sécurisé et optimisé des déchets vers nos centres de traitement."
+      },
+      {
+        "title": "Traitement",
+        "description": "Traitement écologique des déchets visant à minimiser l'impact environnemental."
+      },
+      {
+        "title": "Conseil",
+        "description": "Expertise et conseils en gestion environnementale pour entreprises et collectivités."
+      },
+      {
+        "title": "Valorisation",
+        "description": "Transformation des déchets en ressources utiles pour une économie circulaire."
+      },
+      {
+        "title": "Sensibilisation",
+        "description": "Programmes éducatifs pour promouvoir les bonnes pratiques de gestion des déchets."
+      }
+    ]
   },
   "NotFound": {
   "title": "404 - Page non trouvée",
@@ -22,168 +62,11 @@
 },
 "Navigation": {
     "Home": "Accueil",
-    "Health": "Matériel santé+sècuritè et meuble",
-    "Agriculture": "Agriculture",
     "About Us": "À propos de nous",
+    "Services": "Services",
     "Contact Us": "Contactez-nous",
-    "Fiber Cement": "Bâtiment préfabriqué en ciment fibre",
-    "Sandwich Panel": "Bâtiment préfabriqué en sandwich panel",
-    "Solar Energy": "Énergie solaire",
-    "Marketplace": "Marketplace",
-    "Water & Electricity": "Eau et électricité",
-    "Logistics": "Logistique",
-    "Veterinary": "Élevage",
-    "Follow-up Study": "Étude de suivi",
-    "Elevator": "Ascenseur"
-  },
-  "/prefabricated-building": {
-    "title": "Galerie: Bâtiment préfabriqué"
-  },
-  "/fiber-cement": {
-    "title": "Galerie: Ciment fibre"
-  },
-  "/sandwich-panel": {
-    "title": "Galerie: Panneau sandwich"
-  },
-  "/solar-energy": {
-    "title": "Galerie: Énergie solaire"
-  },
-  "/health": {
-    "title": "Galerie: Matériel santé+sècuritè et meuble"
-  },
-  "/agriculture": {
-    "title": "Galerie: Agriculture"
-  },
-  "/water-electricity": {
-    "title": "Galerie: Eau et électricité"
-  },
-  "/logistics": {
-    "title": "Galerie: Logistique"
-  },
-  "/veterinary": {
-    "title": "Galerie: Élevage"
-  },
-  "/follow-up-study": {
-    "title": "Galerie: Étude de suivi"
-  },
-  "/elevator": {
-    "title": "Galerie: Ascenseur"
-  },
-
-
-  "Products": {
-    "sectionTitle": "Nos Meilleurs Produits - Procurez-les Vous Maintenant!",
-    "viewAll": "Voir tout",
-    "discover": "Découvrir",
-    "area": "Superficie",
-    "price": "Prix"
-  },
-  "product": {
-    "buyNow": "Acheter Maintenant",
-    "similarProducts": "Produits que vous pourriez aimer",
-    "price": "Prix",
-    "discover": "Découvrir",
-    "whatsappMessage": "Je dois acheter ce produit : "
-  },
-  "solar-energy": {
-    "title": "Énergie solaire",
-    "description": "La qualité des technologies utilisées, la performance des panneaux solaires, la durée de vie des batteries et la capacité de stockage sont les points forts des énergies solaire et éolienne renouvelables fournies par le groupe MBI dans toutes ses installations. MBI propose plusieurs systèmes, notamment un système de secours électrique qui fonctionne automatiquement sans interruption, appelé système hybride, un système de puissance directe à partir des panneaux solaires uniquement, appelé système quotidien de 9h à 16h, un système continu 24h/24 qui stocke de l'énergie pendant 24 heures selon les besoins, un système de stockage avec recharge directe depuis l'électricité, offrant une période de réserve pouvant aller jusqu'à 12 heures, et un système double combinant l'énergie solaire, éolienne, électrique et les générateurs, étant le système le plus puissant et le plus économique en termes de consommation après son installation.",
-    "CTA": "Voir plus d'images"
-  },
-  "agriculture": {
-    "title": "Agriculture",
-    "description": "Le groupe MBI propose dans le domaine agricole des solutions et des stratégies avancées et économiques, telles que la création de fermes de fourrage, que ce soit par des systèmes de pivot, fournis par de grandes entreprises françaises et turques, ou par des systèmes d'irrigation avec une équipe d'experts en Turquie, en Espagne et aux États-Unis, ou encore par des systèmes d'irrigation goutte à goutte, grâce aux industries italiennes et turques. Les fermes de légumes et de fruits, qu'elles soient couvertes ou non, mènent de nouvelles expériences dans la maturation des dattes et des bananes, et ont réalisé un saut économique remarquable dans le domaine du fourrage, notamment avec la culture hydroponique de l'orge en contenants préfabriqués, à faible coût et offrant des résultats rapides.",
-    "CTA": "Voir plus d'images"
-  },
-  "water-electricity": {
-    "title": "Eau et électricité",
-    "description": "L'entreprise MBI opère également dans le domaine de la fourniture d'électricité, que ce soit par des poteaux ou par des câbles souterrains. Elle construit des salles techniques contenant des unités de conversion et de distribution, les installe, les fournit ainsi que les câbles et tous les équipements électriques associés. En ce qui concerne le domaine de l'eau, elle réalise des forages pour l'eau potable et construit des réservoirs d'eau de tous types, en fer, en ciment et en plastique.",
-    "CTA": "Voir plus d'images"
-  },
-  "logistics": {
-    "title": "Logistique",
-    "description": "Le groupe MBI dispose en logistique d'équipements spéciaux pour la topographie, des stations totales et des GPS, ainsi que de véhicules lourds et légers, tels que des 4x4, des bulldozers, des tracteurs, des camions, des grues, et des unités de forage pour l'eau.",
-    "CTA": "Voir plus d'images"
-  },
-  "sandwich-panel": {
-    "title": "Panneau sandwich",
-    "description": "La société MBI propose toutes les conceptions industrielles des panneaux sandwich qu'elle importe de Turquie depuis plus de dix ans. Ils se distinguent par leur structure métallique galvanisée antirouille et leur isolation thermique dense en polystyrène et en polyuréthane, ainsi que par la force de leur revêtement de 0,30 à 0,50. Disponibles dans différentes dimensions pour répondre à divers besoins, ils ont été utilisés dans de nombreux projets en Mauritanie. Cette matière offre toutes les unités : entrepôts, usines, maisons, ateliers, bureaux, agences, salles mobiles, cliniques, postes de garde, gradins, cafés, et même étages. Tout cela et plus encore, selon les besoins du client. De nombreux projets ont été réalisés en Mauritanie.",
-    "CTA": "Voir plus d'images"
-  },
-  "veterinary": {
-    "title": "Élevage",
-    "description": "En 2015, le groupe MBI a établi une ferme modèle de vaches Holstein importées d'Allemagne dans la région de Trarza, donnant des résultats impressionnants. Il se spécialise donc dans la construction de fermes, d'usines et de salles de traite, ainsi que dans l'importation de vaches et de moutons provenant de régions renommées à l'échelle mondiale.",
-    "CTA": "Voir plus d'images"
-  },
-  "fiber-cement": {
-    "title": "Ciment fibre",
-    "description": "Le Ciment-fibre est un matériau de construction composite, composé de ciment et de fibres. Principalement minéral, il imite le bois. Solide et polyvalent, il convient à diverses applications. Constitué de cellulose, de sable et de ciment, il forme des planches légères et robustes. Le Ciment-fibre est durable et résistant. Les murs sont construits sur un socle métallique, associé à de la laine de roche, un isolant thermique et acoustique efficace. Adapté à toutes les utilisations : cloisons internes, revêtement de façades. Compatible avec tout type de peinture et d'architecture, avec une durabilité de plus de 30 ans.",
-    "CTA": "Voir plus d'images"
-  },
- "elevator": {
-    "title": "Ascenseur",
-    "description": "La Société MBI est une société spécialisée dans les services concernant les ascenseurs des bâtiments de hauteur. Elle fournit les ascenseurs et les services associés, l'installation, la maintenance et les autres services. Elle fournit des services de qualité dans ce domaine. Elle est présente à Nouakchott et Nouadhibou et est connue pour ses services de qualité. Elle est présente dans ces deux villes depuis plusieurs années où elle fournit des services de qualité d'installation, de maintenance et autres services associés dans ce domaine. \nInstallation : ascenseur panoramique \nInstallation avec une structure métallique \nInstallation avec des blocs en béton.",
-    "CTA": "Voir plus d'images"
-  },
-
-
-  "follow-up-study": {
-    "title": "Étude de Suivi",
-    "description": "Le groupe MBI opère dans les domaines de l'étude, du suivi et de la planification, avec une équipe spécialisée et dispose des équipements logistiques nécessaires tels que :\n-Station totale\n-GPS différentiel\n-Niveaux\n-DRONE (levé topographique)\n-Construction de projet de route\n-Véhicules, voitures, camions, bulldozers et excavatrices.",
-    "CTA": "Voir plus d'images"
-  },
-  "AboutUs": {
-    "PresentationduGroupeMBI": "Présentation du Groupe MBI",
-    "ModernBuildingIndustry": "Modern Building Industry est un groupe leader spécialisé dans la construction préfabriquée de tout genre et ses dérivés à base de panneau sandwich, ciment fiber, bord guibs, OCB, chinguele et PVC.",
-    "ExperienceDescription": "MBI a plus de 15 ans d'expérience et de travail et a réalisé plusieurs projets avec les secteurs privé et public, notamment des complexes résidentiels, l'installation d'usines et d'entrepôts, la construction de bureaux, de villages touristiques et d'agences commerciales. Elle fournit également tous types de clôtures européennes et turques. Voici quelques projets à titre d'exemple :",
-    "ProjetsExemples": "Exemples de Projets",
-    "Projet1": "Construction de centres miniers en Mauritanie, Somelec, Radio Mauritanie, l'Administration des Transports Terrestres, la Gendarmerie Nationale, la Sécurité Routière, les Transports Publics, le Port de Tanit, l'Organisation Sweed, la Banque Populaire de Mauritanie, TAAZOUR, la Société de Commercialisation du Poisson, Sogeco, le Ministère de l'assainissement, le Ministère de la Santé et la sécurité nationale, la société de radiodiffusion et de télévision TDM et la société minière KENZ.",
-    "Projet2": "Quant au secteur privé, nous avons implanté des usines d'eau et de plastique et construit un grand nombre d'entrepôts, de halls, d'habitations et de locaux mobiles.",
-    "Projet3": "Le groupe MBI travaille également dans le domaine de l'énergie solaire avec tous ses systèmes (24h/24) en continu, Alimentation de secours (hybride), Énergie quotidienne alimentée par la lumière du soleil. Elle a également plusieurs projets mis en œuvre dans ce domaine.",
-    "SecteurPrive": "Secteur Privé",
-    "EnergieSolaire": "Énergie Solaire",
-    "Energie24h": "(24h/24) en continu",
-    "EnergieHybride": "Alimentation de secours (hybride)",
-    "EnergieQuotidienne": "Énergie quotidienne alimentée par la lumière du soleil",
-    "ProjetsEnergie": "Elle a également plusieurs projets mis en œuvre dans ce domaine.",
-    "EtudesSuiviPlanification": "Études, Suivi et Planification",
-    "EtudesDescription": "Le groupe MBI travail dans les domaines de l'étude, du suivi et de la planification et dispose d'un personnel spécialisé dans ce domaine et possède pour cela des équipements de logistiques, notamment des machines telles que :",
-    "StationTotal": "Station total",
-    "GPSDifferentiel": "GPS différentiel",
-    "Niveaux": "Niveaux",
-    "DRONE": "DRONE (topographie du levier)",
-    "Vehicules": "Et les véhicules, voitures, camions et tracteurs aussi.",
-    "ElevageAgriculture": "Élevage et Agriculture",
-    "MBIAGRO": "Le groupe MBI dispose également d'une branche spécialisée dans le domaine de l'élevage et l'agriculture, MBI AGRO.",
-    "MBIAGRODescription": "MBI AGRO a mis en œuvre plusieurs projets dans le domaine agricole et a pu donner des résultats tangibles dans la willaya de Hodh Ech Chargui et inchiri depuis 2015. Aujourd'hui, MBI AGRO travail sur un nouveau système appelé culture et maturation, qui est un processus rapide qui se déroule à l'intérieur de ces conteneurs préfabriqués. Ce système qualitatif et économique produit des aliments au quotidien.",
-    "MBIMedical": "Solutions Médicales",
-    "MBIMedicalDescription": "Dans le domaine de la santé, le groupe dispose de MBI médical qui propose d'unités de santé intégrées et prêtes à l'emploi telles que :",
-    "UnitesUrgents": "Unités pour les cas urgents",
-    "UnitesMaternite": "Unités de maternité",
-    "UnitesIntegrees": "Unités de santé intégrées",
-    "UnitesVaccination": "Unités de vaccination",
-    "UnitesSang": "Unités de prise de sang",
-    "CliniqueDentaire": "Et une clinique dentaire mobile",
-    "AppareilsExamen": "Il fournit également tous les appareils d'examen :",
-    "Radio": "Radio",
-    "ECG": "ECG",
-    "ECO": "ÉCO",
-    "MaterielLaboratoire": "Matériel de laboratoire",
-    "LitsFauteuils": "Tous types de lits et fauteuils roulants",
-    "MBISecurite": "Solutions de Sécurité",
-    "MBISecuriteDescription": "Le Groupe MBI participe également dans le domaine de la protection, avec leur branche MBI sécurité, qui fournit des vêtements spéciaux pour les pompiers et les ouvriers d'atelier, des chaussures, un casque de protection, des extincteurs à poudre ABC et CO2, etc.",
-    "Mektbak": "Solutions de Bureaux",
-    "MektbakDescription": "En ce qui concerne l'aménagement, la conception et l'installation des bureaux, le groupe MBI propose à travers Mektbak, des bureaux de haute qualité au design moderne, des salles de réunion, des sièges et des salons luxueux, des climatiseurs et des unités informatiques. Tout ça et plus encore, est mis à votre disposition par MBI, à son siège social."
-  },
-  "marketplace": {
-    "sectionTitle": "Nos Produits",
-    "viewAll": "Voir Tout",
-    "discover": "Découvrir",
-    "price": "Prix",
-    "categoryLabel": "Catégories",
-    "sante": "Produits de Santé",
-    "security": "Produits de Sécurité",
-    "biroutice": "Produits de Fournitures de Bureau"
+    "Careers": "Carrières"
+    
   },
   "contactForm": {
     "title": "Contactez-nous",
@@ -218,11 +101,9 @@
     "Solar Energy": "Énergie solaire",
     "logistics": "Logistique",
     "switchLanguage": "Changer de langue",
-    "allRightsReserved": "Tous droits réservés."
-  },
-  "TopNav": {
-    "ContactUs": "Contactez-nous",
-    "GetAQuote": "Obtenez un devis",
-    "CallUs": "Call Us"
+    "allRightsReserved": "Tous droits réservés.",
+    "QuickLinks": "Liens Rapides",
+    "companyName": "La Société Mauritanienne de Traitement des Déchets",
+    "companyShortName": "SMTD"
   }
 }
