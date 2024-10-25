@@ -1,91 +1,90 @@
 {
   "IndexPage": {
-    "title": "Le Groupe MBI est une entreprise avec 15 ans d'expérience",
-    "description": "Le Groupe MBI est une entreprise leader spécialisée dans la construction préfabriquée et traditionnelle avec plus de 15 ans d'expérience.",
-    "CTA": "En savoir plus",
-    "trustedCompaniesHeading": "ILS NOUS FONT CONFIANCE"
+    "title": "Pour un environnement plus propre",
+    "description": "Leader en gestion et valorisation des déchets en Mauritanie",
+    "CTA": "Découvrez nos services",
+    "trustedCompaniesHeading": "Nos partenaires de confiance"
   },
   "HeroSection": {
     "slides": [
       {
-        "image": "/1.webp",
-        "title": "Pour un Environnement Plus Propre",
-        "description": "Leader en gestion et valorisation des déchets en Mauritanie"
+        "image": "/2.webp",
+        "title": "Flotte moderne et efficace",
+        "description": "Découvrez notre flotte de camions de pointe, assurant un transport sécurisé et rapide des déchets."
       },
       {
-        "image": "/2.webp",
-        "title": "Innovation et Durabilité",
-        "description": "Des solutions modernes pour un avenir durable"
+        "image": "/1.webp",
+        "title": "Solutions de stockage innovantes",
+        "description": "Nos conteneurs robustes et écologiques garantissent une gestion optimale des déchets."
       },
       {
         "image": "/3.webp",
-        "title": "Engagement Environnemental",
-        "description": "Contribuons ensemble à un meilleur environnement"
+        "title": "Collecte écologique et responsable",
+        "description": "Engagez-vous avec nous pour un avenir plus propre grâce à nos méthodes de collecte durables."
       }
     ],
-    "CTA": "Découvrez Nos Services"
+    "CTA": "Découvrez nos services"
   },
   "ServicesSection": {
-    "title": "Nos Services",
-    "description": "Découvrez les solutions complètes que nous offrons pour la gestion efficace et durable des déchets.",
+    "title": "Nos services",
+    "description": "Découvrez les solutions complètes que nous offrons pour le transport sécurisé et durable des déchets.",
     "services": [
       {
-        "title": "Collecte des Déchets",
-        "description": "Service professionnel de collecte des déchets pour un environnement plus sain."
+        "title": "Recyclage",
+        "description": "Solutions innovantes de recyclage pour réduire l'empreinte écologique et valoriser les déchets recyclables."
       },
       {
-        "title": "Transport",
-        "description": "Transport sécurisé et optimisé des déchets vers nos centres de traitement."
+        "title": "Transport des déchets",
+        "description": "Service logistique sécurisé pour le déplacement des déchets depuis les lieux de collecte jusqu'aux centres de traitement ou de recyclage."
       },
       {
-        "title": "Traitement",
-        "description": "Traitement écologique des déchets visant à minimiser l'impact environnemental."
+        "title": "Gestion des déchets industriels",
+        "description": "Solutions sur mesure pour les entreprises industrielles, garantissant la conformité aux réglementations et la réduction de l'empreinte écologique."
       },
       {
-        "title": "Conseil",
-        "description": "Expertise et conseils en gestion environnementale pour entreprises et collectivités."
+        "title": "Analyse et reporting",
+        "description": "Analyse complète des données sur les déchets et production de rapports détaillés pour améliorer les opérations de gestion des déchets."
       },
       {
-        "title": "Valorisation",
-        "description": "Transformation des déchets en ressources utiles pour une économie circulaire."
+        "title": "Solutions vertes",
+        "description": "Développement et mise en œuvre de solutions respectueuses de l'environnement pour réduire l'impact écologique et promouvoir la durabilité."
       },
       {
-        "title": "Sensibilisation",
-        "description": "Programmes éducatifs pour promouvoir les bonnes pratiques de gestion des déchets."
+        "title": "Formation et sensibilisation",
+        "description": "Programmes de formation et de sensibilisation pour les employés et les communautés sur les meilleures pratiques de gestion des déchets."
       }
     ]
   },
   "NotFound": {
-  "title": "404 - Page non trouvée",
-  "description": "Désolé, la page que vous recherchez n'existe pas.",
-  "goBack": "Retour à la page d'accueil"
-},
-"Navigation": {
+    "title": "404 - Page non trouvée",
+    "description": "Désolé, la page que vous recherchez n'existe pas.",
+    "goBack": "Retour à la page d'accueil"
+  },
+  "Navigation": {
     "Home": "Accueil",
     "About Us": "À propos de nous",
     "Services": "Services",
     "Contact Us": "Contactez-nous",
     "Careers": "Carrières"
-    
   },
   "contactForm": {
     "title": "Contactez-nous",
     "firstName": "Prénom",
-    "lastName": "Nom de famille",
+    "lastName": "Nom",
     "companyName": "Nom de l'entreprise",
     "email": "Email",
     "phoneNumber": "Numéro de téléphone",
     "message": "Message",
     "submit": "Envoyer",
     "getInTouch": "Contactez-nous",
-    "visitUs": "Venez nous voir",
-    "visitDescription": "Notre emplacement est Cité smart-tevragh zeina",
-    "chatToUs": "Parlez-nous",
-    "chatDescription": "Notre équipe sympathique est là pour vous aider.\nmbigtlh@gmail.com",
+    "visitUs": "Rendez-nous visite",
+    "visitDescription": "Rue de l'Environnement, Quartier Vert, Nouakchott, Mauritanie",
+    "chatToUs": "Discutez avec nous",
+    "chatDescription": "Notre équipe amicale est là pour vous aider.\ncontact@smt-mw.com",
     "callUs": "Appelez-nous",
-    "callDescription": "8h-17h du lundi au samedi\n(+222) 42022255\n(+222) 42022244",
+    "callDescription": "De 8h à 17h du lundi au samedi\n+222 45 678 910",
     "socialMedia": "Réseaux sociaux",
-    "emailAddress": "Email",
+    "emailAddress": "Adresse email",
     "phone": "Téléphone",
     "localization": "Localisation"
   },
@@ -93,17 +92,14 @@
     "location": "Nouakchott, Mauritanie",
     "contactUs": "Contactez-nous",
     "phone": "Téléphone",
-    "mobile": "Portable",
-    "email": "E-mail",
+    "mobile": "Mobile",
+    "email": "Email",
     "services": "Nos services",
-    "Prefabricated Building": "Bâtiment préfabriqué",
-    "waterElectricity": "Eau et électricité",
-    "Solar Energy": "Énergie solaire",
-    "logistics": "Logistique",
     "switchLanguage": "Changer de langue",
     "allRightsReserved": "Tous droits réservés.",
-    "QuickLinks": "Liens Rapides",
-    "companyName": "La Société Mauritanienne de Traitement des Déchets",
-    "companyShortName": "SMTD"
+    "QuickLinks": "Liens rapides",
+    "companyName": "Société Mauritanienne de Traitement des Déchets",
+    "companyShortName": "SMTD",
+    "address": "Rue de l'Environnement, Quartier Vert, Nouakchott, Mauritanie"
   }
 }

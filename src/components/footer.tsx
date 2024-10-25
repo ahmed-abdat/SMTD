@@ -14,8 +14,9 @@ const Footer: React.FC<{ locale: string }> = ({ locale }) => {
     <footer className="bg-primary-forestGreen text-primary-white py-8">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between">
         <div className="md:w-1/3 mb-8 md:mb-0">
-          <Image src="/logo.svg" alt="MBI Logo" width={160} height={160} />
+          <Image src="/logo.svg" alt="MBI Logo" width={120} height={120} />
           <p className="mt-4 text-primary-offWhite">
+          {t('companyName')} <br />
             {t('location')}
           </p>
           <DockDemo />
@@ -23,16 +24,15 @@ const Footer: React.FC<{ locale: string }> = ({ locale }) => {
         <div className="md:w-1/3 mb-8 md:mb-0">
           <h3 className="text-lg font-semibold mb-4 text-primary-yellow">{t('contactUs')}</h3>
           <p className="text-primary-offWhite">
-            <span>{t('phone')}: </span>00222-42022255<br />
-            <span>{t('mobile')}: </span>00222-42022244<br />
-            <span>{t('email')}: </span>info@mbirim.com
+            <span>{t('phone')}: </span>+222 45 678 910<br />
+            <span>{t('email')}: </span>contact@smt-mw.com<br />
           </p>
         </div>
         <div className="md:w-1/3 mb-8 md:mb-0">
           <h3 className="text-lg font-semibold mb-4 text-primary-yellow">{t('QuickLinks')}</h3>
           <ul>
             {navLinks.map(link => (
-              <li key={link.href}>
+              <li key={link.href} className="mb-2">
                 <NavButton 
                   navLink={{ ...link, title: nav(link.title) }}
                   locale={locale} 
