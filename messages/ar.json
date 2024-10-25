@@ -8,17 +8,17 @@
   "HeroSection": {
     "slides": [
       {
-        "image": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b",
+        "image": "/1.jpg",
         "title": "من أجل بيئة أنظف",
         "description": "الرائدة في إدارة النفايات وتثمينها في موريتانيا"
       },
       {
-        "image": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9",
+        "image": "/2.jpg",
         "title": "الابتكار والاستدامة",
         "description": "حلول حديثة لمستقبل مستدام"
       },
       {
-        "image": "https://images.unsplash.com/photo-1595278069441-2cf29f8005a4",
+        "image": "/3.jpg",
         "title": "الالتزام البيئي",
         "description": "لنساهم معًا في بيئة أفضل"
       }
