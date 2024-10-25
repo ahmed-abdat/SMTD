@@ -101,5 +101,31 @@
     "companyName": "Société Mauritanienne de Traitement des Déchets",
     "companyShortName": "SMTD",
     "address": "Rue de l'Environnement, Quartier Vert, Nouakchott, Mauritanie"
+  },
+  "ImpactSection": {
+    "title": "Notre Impact",
+    "description": "Des résultats concrets pour un environnement plus propre",
+    "stats": [
+      {
+        "value": 5000,
+        "label": "Tonnes de déchets traités",
+        "suffix": "+"
+      },
+      {
+        "value": 100,
+        "label": "Employés qualifiés",
+        "suffix": "+"
+      },
+      {
+        "value": 30,
+        "label": "Véhicules spécialisés",
+        "suffix": ""
+      },
+      {
+        "value": 95,
+        "label": "Satisfaction client",
+        "suffix": "%"
+      }
+    ]
   }
 }

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import HeroSection from '@/components/HeroSection';
 import ServicesSection from '@/components/ServicesSection';
+import ImpactSection from '@/components/ImpactSection';
 
 type Locale = "fr" | "ar";
 interface HomeProps {
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "SMTD - Innovons pour un Environnement Plus Propre",
     description: "Découvrez l'impact de SMTD sur la gestion des déchets et le développement durable en Mauritanie.",
-    images: ['/twitter-image.jpg'], // Add the path to your home page Twitter card image
+    images: ['/opengraph-image.jpg'], // Add the path to your home page Twitter card image
   },
 };
 
@@ -32,6 +33,7 @@ export default function Home({
     <>
       <HeroSection locale={locale} />
       <ServicesSection />
+      <ImpactSection locale={locale} />
     </>
   );
 }
