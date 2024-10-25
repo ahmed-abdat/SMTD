@@ -7,6 +7,13 @@ import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 
+export const metadata: Metadata = {
+  title : {
+    default : "SMTD - Pour un Environnement Plus Propre",
+    template : "%s | SMTD"
+  },
+  description : "Leader en gestion et valorisation des déchets en Mauritanie. Découvrez nos services de collecte, recyclage et traitement écologique des déchets.",
+};
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -14,6 +21,8 @@ interface RootLayoutProps {
     locale: string;
   };
 }
+
+
 
 export default async function RootLayout({
   children,
