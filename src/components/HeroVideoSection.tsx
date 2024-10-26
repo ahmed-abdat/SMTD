@@ -26,7 +26,7 @@ const HeroVideoSection: React.FC = () => {
           <HeroVideoDialog
             className="dark:hidden block"
             animationStyle="from-center"
-            videoSrc="https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb"
+            videoSrc="https://youtu.be/lFjLc9-fAZA?si=4FV-bndSQa7c6yEx"
             thumbnailSrc="/opengraph-image.jpg"
             thumbnailAlt="SMTD en action - Gestion des déchets"
           />
@@ -34,7 +34,7 @@ const HeroVideoSection: React.FC = () => {
           <HeroVideoDialog
             className="hidden dark:block"
             animationStyle="from-center"
-            videoSrc="https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb"
+            videoSrc="https://youtu.be/lFjLc9-fAZA?si=4FV-bndSQa7c6yEx"
             thumbnailSrc="/opengraph-image.jpg"
             thumbnailAlt="SMTD en action - Gestion des déchets"
           />
