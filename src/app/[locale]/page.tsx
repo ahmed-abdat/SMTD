@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import HeroSection from '@/components/HeroSection';
 import ServicesSection from '@/components/ServicesSection';
 import ImpactSection from '@/components/ImpactSection';
+import HeroVideoSection from '@/components/HeroVideoSection';
 
 type Locale = "fr" | "ar";
 interface HomeProps {
@@ -34,6 +35,7 @@ export default function Home({
       <HeroSection locale={locale} />
       <ServicesSection />
       <ImpactSection locale={locale} />
+      <HeroVideoSection />
     </>
   );
 }
