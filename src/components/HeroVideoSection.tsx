@@ -19,7 +19,6 @@ const HeroVideoSection: React.FC = () => {
             Leader en gestion et valorisation des déchets en Mauritanie
           </p>
         </div>
-
         <div className="relative max-w-4xl mx-auto">
           <HeroVideoDialog
             className="dark:hidden block"
