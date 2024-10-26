@@ -19,7 +19,7 @@ export default function NavButton({
   onClick?: () => void;
 }) {
   const path = usePathname()
-  const link = path.includes(locale) ? `${path.slice(0,3)}${navLink.href}` : `${locale}${navLink.href}`
+  const link = path?.includes(locale) ? `${path.slice(0,3)}${navLink.href}` : `/${locale}${navLink.href}`
 
   return (
     <Button

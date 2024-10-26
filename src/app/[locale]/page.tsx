@@ -1,8 +1,9 @@
-import { Metadata } from 'next';
-import HeroSection from '@/components/HeroSection';
-import ServicesSection from '@/components/ServicesSection';
-import ImpactSection from '@/components/ImpactSection';
-import HeroVideoSection from '@/components/HeroVideoSection';
+import { Metadata } from "next";
+import HeroSection from "@/components/HeroSection";
+import ServicesSection from "@/components/ServicesSection";
+import HeroVideoSection from "@/components/HeroVideoSection";
+import DirectorMessage from "@/components/DirectorMessage";
+import dynamic from 'next/dynamic';
 
 type Locale = "fr" | "ar";
 interface HomeProps {
@@ -13,18 +14,22 @@ interface HomeProps {
 
 export const metadata: Metadata = {
   title: "SMTD - Pour un Environnement Plus Propre",
-  description: "Leader en gestion et valorisation des déchets en Mauritanie. Découvrez nos services de collecte, recyclage et traitement écologique des déchets.",
+  description:
+    "Leader en gestion et valorisation des déchets en Mauritanie. Découvrez nos services de collecte, recyclage et traitement écologique des déchets.",
 };
 
-export default function Home({
-  params: { locale },
-}: Readonly<HomeProps>) {
+const ImpactSection = dynamic(() => import('@/components/ImpactSection'), {
+  ssr: false
+});
+
+export default function Home({ params: { locale } }: Readonly<HomeProps>) {
   return (
     <>
       <HeroSection locale={locale} />
       <ServicesSection />
-      <ImpactSection locale={locale} />
+      <ImpactSection  />
       <HeroVideoSection />
+      <DirectorMessage />
     </>
   );
 }

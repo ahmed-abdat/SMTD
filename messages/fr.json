@@ -56,16 +56,18 @@
     ]
   },
   "NotFound": {
-    "title": "404 - Page non trouvée",
-    "description": "Désolé, la page que vous recherchez n'existe pas.",
-    "goBack": "Retour à la page d'accueil"
+    "title": "404",
+    "description": "Oops! Page non trouvée",
+    "message": "La page que vous recherchez a peut-être été supprimée, son nom a changé ou elle est temporairement indisponible.",
+    "goBack": "Retour à l'accueil"
   },
   "Navigation": {
     "Home": "Accueil",
     "About Us": "À propos de nous",
     "Services": "Services",
     "Contact Us": "Contactez-nous",
-    "Careers": "Carrières"
+    "Careers": "Carrières",
+    "Multimedia": "Multimédia"
   },
   "contactForm": {
     "title": "Contactez-nous",
@@ -127,5 +129,53 @@
         "suffix": "%"
       }
     ]
+  },
+  "DirectorMessage": {
+    "title": "Mot du Directeur Général",
+    "content": [
+      "Chers collaborateurs, partenaires et clients,",
+      "Je suis fier de vous adresser ces quelques mots en tant que Directeur Général de SMTD. Notre mission, celle de gérer et valoriser les déchets, est plus que jamais essentielle dans le contexte actuel de transition écologique. Chaque jour, nous contribuons activement à protéger l'environnement et à améliorer la qualité de vie des communautés que nous servons.",
+      "Notre entreprise s'efforce de répondre aux défis de demain en mettant en place des solutions durables et innovantes. Grâce à la mobilisation de nos équipes et à la confiance de nos partenaires, nous avons su développer des services performants, respectueux des normes environnementales les plus exigeantes. Nous sommes engagés à réduire l'impact écologique de nos opérations tout en offrant des services de qualité.",
+      "Je tiens à remercier chacun d'entre vous pour votre engagement quotidien. C'est ensemble que nous continuerons à avancer vers un avenir plus propre, en construisant un modèle de gestion des déchets qui soit à la fois responsable et respectueux de notre planète.",
+      "L'innovation, la rigueur, et l'esprit d'équipe sont nos valeurs fondatrices. En les cultivant, nous ferons de la SMTD un acteur incontournable dans la préservation de l'environnement.",
+      "Je vous remercie pour votre contribution à ce projet ambitieux et suis convaincu que, ensemble, nous continuerons à progresser."
+    ],
+    "directorName": "Mohamed El Moustapha Ould Eleya",
+    "directorTitle": "Directeur Général"
+  },
+  "HeroVideoSection": {
+    "title": "Pour un Environnement Plus Propre",
+    "description": "Pionnier de la gestion durable des déchets et de la protection de l'environnement en Mauritanie",
+    "videoAlt": "SMTD en action - Gestion des déchets"
+  },
+  "AboutUs": {
+    "heroTitle": "À Propos de SMTD",
+    "heroSubtitle": "Leader en gestion et valorisation des déchets en Mauritanie",
+    "historyTitle": "Notre Histoire",
+    "historyContent": "Depuis sa création, SMTD s'est imposée comme un acteur clé dans le transport sécurisé et durable des déchets en Mauritanie. Grâce à une approche innovante et responsable, nous avons optimisé la chaîne logistique de gestion des déchets, contribuant ainsi à la protection de notre environnement et à l'amélioration de la qualité de vie des communautés que nous servons.",
+    "missionTitle": "Notre Mission",
+    "missionContent": "La SMTD a pour mission de fournir des solutions logistiques sûres, efficaces et durables pour le transport des déchets. Nous garantissons le transfert sécurisé des déchets depuis les lieux de collecte jusqu'aux centres de traitement ou de recyclage, tout en respectant les réglementations environnementales et de sécurité.",
+    "visionTitle": "Notre Vision",
+    "visionContent": "Devenir un acteur clé dans le secteur de la gestion des déchets en assurant un transport optimisé, sécurisé et écologique des déchets, contribuant ainsi à une chaîne de gestion des déchets plus efficace et durable au niveau national.",
+    "valuesTitle": "Nos Valeurs",
+    "values": [
+      {
+        "title": "Responsabilité",
+        "description": "Nous prenons notre rôle au sérieux pour garantir que les déchets soient transportés de manière sécurisée, tout en minimisant les impacts environnementaux."
+      },
+      {
+        "title": "Innovation",
+        "description": "Nous mettons en œuvre les dernières technologies de transport pour optimiser nos services et réduire notre empreinte carbone."
+      },
+      {
+        "title": "Collaboration",
+        "description": "Travailler en partenariat avec les municipalités, les entreprises et les communautés pour répondre aux besoins spécifiques de chaque région."
+      }
+    ],
+    "impactTitle": "Notre Impact Environnemental",
+    "impactContent": "Grâce à nos initiatives et projets, nous avons pu réduire considérablement les délais de transport, optimiser les coûts logistiques et promouvoir des pratiques de transport durable, contribuant ainsi à la réduction de l'empreinte écologique globale.",
+    "impactPoint1": "Réduction des émissions de CO2 de 30% grâce à notre flotte de véhicules écologiques",
+    "impactPoint2": "Optimisation des itinéraires réduisant la consommation de carburant de 20%",
+    "impactPoint3": "Mise en place de programmes de recyclage augmentant le taux de valorisation des déchets de 40%"
   }
 }

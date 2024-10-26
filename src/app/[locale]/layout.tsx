@@ -8,11 +8,11 @@ import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 
 export const metadata: Metadata = {
-  title : {
-    default : "SMTD - Pour un Environnement Plus Propre",
-    template : "%s | SMTD"
+  title: {
+    default: "SMTD - Pour un Environnement Plus Propre",
+    template: "%s | SMTD",
   },
-  metadataBase: new URL('https://smtde.vercel.app/fr'), // Replace with your actual website URL
+  metadataBase: new URL("https://smtde.vercel.app/fr"), // Replace with your actual website URL
 };
 
 interface RootLayoutProps {
@@ -21,8 +21,6 @@ interface RootLayoutProps {
     locale: string;
   };
 }
-
-
 
 export default async function RootLayout({
   children,
