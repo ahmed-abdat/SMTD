@@ -10,30 +10,30 @@ export default function MissionVision({ locale }: { locale: string }) {
   const t = useTranslations('AboutUs');
 
   return (
-    <section className="py-16 bg-primary-white">
+    <section className="py-8 sm:py-12 md:py-16 bg-primary-white">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
           <MotionDiv
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <Card className="h-full">
-              <CardContent className="p-6">
-                <h3 className="text-2xl font-bold text-primary-darkGreen mb-4">{t('missionTitle')}</h3>
-                <p className="text-primary-charcoal">{t('missionContent')}</p>
+              <CardContent className="p-4 sm:p-6">
+                <h3 className="text-xl sm:text-2xl font-bold text-primary-darkGreen mb-2 sm:mb-4">{t('missionTitle')}</h3>
+                <p className="text-sm sm:text-base text-primary-charcoal">{t('missionContent')}</p>
               </CardContent>
             </Card>
           </MotionDiv>
           <MotionDiv
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
           >
             <Card className="h-full">
-              <CardContent className="p-6">
-                <h3 className="text-2xl font-bold text-primary-darkGreen mb-4">{t('visionTitle')}</h3>
-                <p className="text-primary-charcoal">{t('visionContent')}</p>
+              <CardContent className="p-4 sm:p-6">
+                <h3 className="text-xl sm:text-2xl font-bold text-primary-darkGreen mb-2 sm:mb-4">{t('visionTitle')}</h3>
+                <p className="text-sm sm:text-base text-primary-charcoal">{t('visionContent')}</p>
               </CardContent>
             </Card>
           </MotionDiv>

@@ -58,40 +58,45 @@ export default function ImpactSection() {
   }, []);
 
   return (
-    <section className="py-24 bg-primary-darkGreen text-primary-white relative overflow-hidden">
+    <section className="py-12 sm:py-16 md:py-24 bg-primary-darkGreen text-primary-white relative overflow-hidden">
       <div
         ref={parallaxRef}
         className="absolute inset-0 bg-[url('/images/impact-bg.jpg')] bg-cover bg-center opacity-10"
         aria-hidden="true"
       />
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 text-primary-yellow">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="text-center mb-8 sm:mb-12 md:mb-16"
+        >
+          <h2 className="text-3xl sm:text-4xl font-bold mb-2 sm:mb-4 text-primary-yellow">
             {t("title")}
           </h2>
-          <p className="max-w-2xl mx-auto text-lg text-primary-lightGreen">
+          <p className="max-w-2xl mx-auto text-base sm:text-lg text-primary-lightGreen">
             {t("description")}
           </p>
-        </div>
+        </motion.div>
 
         <div
           ref={ref}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8"
         >
           {stats.map((stat, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
             >
               <Card className="bg-primary-forestGreen border-primary-limeGreen hover:bg-primary-darkGreen transition-colors duration-300">
-                <CardContent className="p-6 text-center">
-                  <div className="text-5xl font-bold mb-2 text-primary-yellow">
+                <CardContent className="p-4 sm:p-6 text-center">
+                  <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-1 sm:mb-2 text-primary-yellow">
                     {counts[index].toLocaleString()}
                     {stat.suffix}
                   </div>
-                  <div className="text-sm text-primary-lightGreen">
+                  <div className="text-xs sm:text-sm text-primary-lightGreen">
                     {stat.label}
                   </div>
                 </CardContent>

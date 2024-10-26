@@ -44,7 +44,7 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header locale={locale} />
-          <main>{children}</main>
+          <main className="overflow-x-hidden">{children}</main>
           <Toaster position="top-center" richColors />
           <Footer locale={locale} />
         </NextIntlClientProvider>
