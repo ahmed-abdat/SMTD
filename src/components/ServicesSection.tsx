@@ -23,7 +23,7 @@ const ServicesSection: React.FC = () => {
   }, [controls, isInView])
 
   return (
-    <div ref={ref} className="py-24 bg-gradient-to-b from-primary-lightGreen/30 to-primary-white">
+    <div ref={ref} className="py-24 bg-gradient-to-b from-primary-lightGreen/30 to-primary-white" id="services">
       <div className="container mx-auto px-4">
         <motion.div 
           className="text-center mb-16"
