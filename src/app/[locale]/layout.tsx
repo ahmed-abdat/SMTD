@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default : "SMTD - Pour un Environnement Plus Propre",
     template : "%s | SMTD"
   },
-  description : "Leader en gestion et valorisation des déchets en Mauritanie. Découvrez nos services de collecte, recyclage et traitement écologique des déchets.",
+  metadataBase: new URL('https://smtde.vercel.app/fr'), // Replace with your actual website URL
 };
 
 interface RootLayoutProps {
