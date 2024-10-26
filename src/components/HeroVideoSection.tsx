@@ -4,8 +4,6 @@ import HeroVideoDialog from "@/components/ui/hero-video-dialog";
 
 import SparklesText from "@/components/ui/sparkles-text";
 
-import { Button } from "@/components/ui/button";
-
 const HeroVideoSection: React.FC = () => {
   return (
     <section className="relative py-12 md:py-20 overflow-hidden bg-primary-lightGray dark:bg-primary-charcoal">
@@ -22,11 +20,11 @@ const HeroVideoSection: React.FC = () => {
           </p>
         </div>
 
-        <div className="relative max-w-6xl mx-auto">
+        <div className="relative max-w-4xl mx-auto">
           <HeroVideoDialog
             className="dark:hidden block"
             animationStyle="from-center"
-            videoSrc="https://youtu.be/lFjLc9-fAZA?si=4FV-bndSQa7c6yEx"
+            videoSrc="https://firebasestorage.googleapis.com/v0/b/marketplace-37e56.appspot.com/o/video.mp4?alt=media&token=ad19a08b-c9a5-4f4e-b487-54a43ef9e2b5"
             thumbnailSrc="/opengraph-image.jpg"
             thumbnailAlt="SMTD en action - Gestion des déchets"
           />
@@ -34,12 +32,11 @@ const HeroVideoSection: React.FC = () => {
           <HeroVideoDialog
             className="hidden dark:block"
             animationStyle="from-center"
-            videoSrc="https://youtu.be/lFjLc9-fAZA?si=4FV-bndSQa7c6yEx"
+            videoSrc="https://firebasestorage.googleapis.com/v0/b/marketplace-37e56.appspot.com/o/video.mp4?alt=media&token=ad19a08b-c9a5-4f4e-b487-54a43ef9e2b5"
             thumbnailSrc="/opengraph-image.jpg"
             thumbnailAlt="SMTD en action - Gestion des déchets"
           />
         </div>
-
       </div>
     </section>
   );

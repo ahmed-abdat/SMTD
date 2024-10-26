@@ -126,7 +126,7 @@ export default function HeroVideoDialog({
             <motion.div
               {...selectedAnimation}
               transition={{ type: "spring", damping: 30, stiffness: 300 }}
-              className="relative w-full max-w-4xl aspect-video mx-4 md:mx-0"
+              className="relative w-full max-w-4xl mx-4 md:mx-0"
               onClick={(e) => e.stopPropagation()}
             >
               <button 
@@ -135,13 +135,15 @@ export default function HeroVideoDialog({
               >
                 <XIcon className="size-5" />
               </button>
-              <div className="size-full border-2 border-white rounded-2xl overflow-hidden isolate z-[1] relative">
-                <iframe
+              <div className="aspect-video w-full border-2 border-white rounded-2xl overflow-hidden isolate z-[1] relative">
+                <video
                   src={videoSrc}
-                  className="size-full rounded-2xl"
-                  allowFullScreen
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                ></iframe>
+                  className="w-full h-full object-cover"
+                  controls
+                  autoPlay
+                >
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </motion.div>
           </motion.div>
