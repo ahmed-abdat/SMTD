@@ -1,13 +1,11 @@
-import React from 'react'
+import ContactForm from '@/components/ContactForm'
 
-function page() {
-  return (
-    <section className='py-10'>
-      <h1 className='text-4xl font-bold text-center'>
-        contact us
-      </h1>
-    </section>
-  )
+interface ContactPageProps {
+  params: {
+    locale: string;
+  };
 }
 
-export default page
+export default function ContactPage({ params: { locale } }: ContactPageProps) {
+  return <ContactForm locale={locale} />
+}

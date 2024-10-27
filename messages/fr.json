@@ -71,6 +71,7 @@
   },
   "contactForm": {
     "title": "Contactez-nous",
+    "getInTouch": "Entrez en contact",
     "firstName": "Prénom",
     "lastName": "Nom",
     "companyName": "Nom de l'entreprise",
@@ -78,17 +79,17 @@
     "phoneNumber": "Numéro de téléphone",
     "message": "Message",
     "submit": "Envoyer",
-    "getInTouch": "Contactez-nous",
+    "sending": "Envoi en cours...",
     "visitUs": "Rendez-nous visite",
     "visitDescription": "Rue de l'Environnement, Quartier Vert, Nouakchott, Mauritanie",
     "chatToUs": "Discutez avec nous",
     "chatDescription": "Notre équipe amicale est là pour vous aider.\ncontact@smt-mw.com",
     "callUs": "Appelez-nous",
-    "callDescription": "De 8h à 17h du lundi au samedi\n+222 45 678 910",
+    "workingHours": "De 8h à 17h du lundi au samedi",
+    "phoneNumber": "+222 45 678 910",
     "socialMedia": "Réseaux sociaux",
-    "emailAddress": "Adresse email",
-    "phone": "Téléphone",
-    "localization": "Localisation"
+    "successMessage": "Votre message a été envoyé avec succès !",
+    "errorMessage": "Une erreur s'est produite lors de l'envoi du message. Veuillez réessayer."
   },
   "Footer": {
     "location": "Nouakchott, Mauritanie",

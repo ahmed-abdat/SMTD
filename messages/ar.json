@@ -71,6 +71,7 @@
   },
   "contactForm": {
     "title": "اتصل بنا",
+    "getInTouch": "تواصل معنا",
     "firstName": "الاسم الأول",
     "lastName": "اسم العائلة",
     "companyName": "اسم الشركة",
@@ -78,17 +79,17 @@
     "phoneNumber": "رقم الهاتف",
     "message": "الرسالة",
     "submit": "إرسال",
-    "getInTouch": "تواصل معنا",
+    "sending": "جاري الإرسال...",
     "visitUs": "زرنا",
     "visitDescription": "شارع البيئة، حي الخضراء، نواكشوط، موريتانيا",
     "chatToUs": "تحدث معنا",
     "chatDescription": "فريقنا الودود هنا لمساعدتك.\ncontact@smt-mw.com",
     "callUs": "اتصل بنا",
-    "callDescription": "من الساعة 8 صباحًا حتى 5 مساءً من الاثنين إلى السبت\n+222 45 678 910",
+    "workingHours": "من الساعة 8 صباحًا حتى 5 مساءً من الاثنين إلى السبت",
+    "phoneNumber": "+222 45 678 910",
     "socialMedia": "وسائل التواصل الاجتماعي",
-    "emailAddress": "البريد الإلكتروني",
-    "phone": "الهات",
-    "localization": "الموقع"
+    "successMessage": "تم إرسال رسالتك بنجاح!",
+    "errorMessage": "حدث خطأ أثناء إرسال الرسالة. يرجى المحاولة مرة أخرى."
   },
   "Footer": {
     "location": "نواكشوط، موريتانيا",
