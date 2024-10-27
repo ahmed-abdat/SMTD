@@ -18,8 +18,10 @@ import { useTranslations } from 'next-intl';
 
 import { navLinks } from "@/constats/nav-links";
 
-import NavButton from "./NavButton"; // Make sure to import the NavButton component
+import NavButton from "./NavButton";
 import { cn } from "@/lib/utils";
+import { useRouter } from 'next/navigation';
+import PulsatingButton from "@/components/ui/pulsating-button";
 
 export function Header({
   locale,
@@ -30,10 +32,17 @@ export function Header({
 
   const t = useTranslations('Navigation');
 
+  const router = useRouter();
+
   // Function to close the sheet
   const closeSheet = useCallback(() => {
     setIsOpen(false);
   }, []);
+
+  const handleContactClick = useCallback(() => {
+    router.push(`/${locale}/contact`);
+    closeSheet();
+  }, [router, locale, closeSheet]);
 
   return (
     <header className="sticky top-0 w-full bg-primary-lightGray backdrop-blur supports-[backdrop-filter]:bg-primary-lightGray/60 z-50 border-b">
@@ -60,9 +69,14 @@ export function Header({
                 className="text-sm lg:text-base font-medium transition-colors hover:text-primary-limeGreen"
               />
             ))}
-            <Button className="bg-primary-forestGreen text-primary-white hover:bg-primary-darkGreen text-xs sm:text-sm lg:text-base px-2 py-1 sm:px-3 sm:py-2">
+            <PulsatingButton
+              className="bg-primary-forestGreen text-primary-white hover:bg-primary-darkGreen text-xs sm:text-sm lg:text-base px-2 py-1 sm:px-3 sm:py-2"
+              pulseColor="#4CAF50"
+              duration="2500ms"
+              onClick={() => router.push(`/${locale}/contact`)}
+            >
               {t('Contact Us')}
-            </Button>
+            </PulsatingButton>
           </div>
 
           {/* Mobile menu button */}
@@ -86,12 +100,14 @@ export function Header({
                       onClick={closeSheet}
                     />
                   ))}
-                  <Button 
+                  <PulsatingButton 
                     className="bg-primary-forestGreen text-primary-white hover:bg-primary-darkGreen w-full text-sm"
-                    onClick={closeSheet}
+                    pulseColor="#4CAF50"
+                    duration="2500ms"
+                    onClick={handleContactClick}
                   >
                     {t('Contact Us')}
-                  </Button>
+                  </PulsatingButton>
                 </div>
               </SheetContent>
             </Sheet>
